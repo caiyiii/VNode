@@ -1,0 +1,28 @@
+{
+  "name": "vnode",
+  "version": "1.0.0",
+  "description": "通过snabbdom，学习virtual-dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiyiii/VNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiyiii/VNode/issues"
+  },
+  "homepage": "https://github.com/caiyiii/VNode#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "snabbdom": "^3.5.1"
+  }
+}
